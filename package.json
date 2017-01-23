@@ -1,0 +1,57 @@
+{
+  "name": "supermind-boilerplate",
+  "version": "0.0.0",
+  "description": "Boilerplate for Supermind projects",
+  "author": "Matthew Wagerfield",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "start": "gulp start",
+    "lint": "eslint source"
+  },
+  "homepage": "https://github.com/supermind/supermind-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermind/supermind-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/supermind/supermind-boilerplate/issues"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "history": "^4.5.1",
+    "inferno": "^1.1.1",
+    "inferno-component": "^1.1.2",
+    "inferno-create-element": "^1.1.2",
+    "inferno-mobx": "^1.1.1",
+    "inferno-router": "^1.1.1",
+    "inferno-server": "^1.1.1",
+    "lodash": "^4.17.4",
+    "mobx": "^3.0.1",
+    "styletron": "^2.4.0",
+    "styletron-inferno": "^2.0.1-beta.1",
+    "styletron-server": "^2.3.0",
+    "styletron-utils": "^2.4.0"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-inferno": "^1.5.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "del": "^2.2.2",
+    "eslint": "^3.13.0",
+    "eslint-config-supermind": "^0.18.0",
+    "gulp": "^3.9.1",
+    "run-sequence": "^1.2.2",
+    "webpack": "2.2.0-rc.3",
+    "webpack-md5-hash": "^0.0.5",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
